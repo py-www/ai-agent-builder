@@ -1,52 +1,74 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="380" viewBox="0 0 760 380" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
-  <defs>
-    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
-  <rect width="760" height="380" fill="#FFFFFF"/>
-
-  <rect x="20" y="20" width="350" height="340" rx="14" fill="#FCFCFA" stroke="#D3D1C7"/>
-  <text x="195" y="52" text-anchor="middle" font-size="17" font-weight="600" fill="#791F1F">Fixed roles (avoid)</text>
-  <text x="195" y="74" text-anchor="middle" font-size="12" fill="#5F5E5A">You design the split in advance</text>
-  <rect x="115" y="96" width="160" height="48" rx="8" fill="#F1EFE8" stroke="#888780"/>
-  <text x="195" y="125" text-anchor="middle" font-size="14" font-weight="600" fill="#2C2C2A">Orchestrator</text>
-  <path d="M195 144 L195 168 L85 168 L85 192" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <line x1="195" y1="168" x2="195" y2="192" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <path d="M195 168 L305 168 L305 192" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <g font-size="13" font-weight="600" fill="#712B13">
-    <rect x="40" y="196" width="90" height="48" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="85" y="225" text-anchor="middle">Research</text>
-    <rect x="150" y="196" width="90" height="48" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="195" y="225" text-anchor="middle">Writer</text>
-    <rect x="260" y="196" width="90" height="48" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="305" y="225" text-anchor="middle">Editor</text>
-  </g>
-  <g font-size="13" fill="#444441">
-    <text x="45" y="284">• Same split for every task</text>
-    <text x="45" y="306">• Role-play adds vocabulary, not skill</text>
-    <text x="45" y="328">• Must be redesigned when models improve</text>
-  </g>
-
-  <rect x="390" y="20" width="350" height="340" rx="14" fill="#FCFCFA" stroke="#D3D1C7"/>
-  <text x="565" y="52" text-anchor="middle" font-size="17" font-weight="600" fill="#085041">Dynamic split (use)</text>
-  <text x="565" y="74" text-anchor="middle" font-size="12" fill="#5F5E5A">The orchestrator decides each time</text>
-  <rect x="485" y="96" width="160" height="48" rx="8" fill="#F1EFE8" stroke="#888780"/>
-  <text x="565" y="125" text-anchor="middle" font-size="14" font-weight="600" fill="#2C2C2A">Orchestrator</text>
-  <path d="M565 144 L565 168 L455 168 L455 192" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
-  <line x1="565" y1="168" x2="565" y2="192" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
-  <path d="M565 168 L675 168 L675 192" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#a)"/>
-  <g font-size="13" font-weight="600" fill="#085041">
-    <rect x="410" y="196" width="90" height="48" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-dasharray="5 4"/>
-    <text x="455" y="225" text-anchor="middle">Sub-task</text>
-    <rect x="520" y="196" width="90" height="48" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-dasharray="5 4"/>
-    <text x="565" y="225" text-anchor="middle">Sub-task</text>
-    <rect x="630" y="196" width="90" height="48" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-dasharray="5 4"/>
-    <text x="675" y="225" text-anchor="middle">Sub-task</text>
-  </g>
-  <g font-size="13" fill="#444441">
-    <text x="415" y="284">• Split fits the task in front of it</text>
-    <text x="415" y="306">• Temporary sessions, closed when done</text>
-    <text x="415" y="328">• Nothing to redesign on model upgrades</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="872" viewBox="0 0 1280 872" role="img" aria-labelledby="t d">
+<title id="t">Fixed roles vs dynamic split</title><desc id="d">Avoid: an orchestrator with fixed Research, Writer and Editor agents. Use: an orchestrator that splits each task into temporary sub-tasks.</desc>
+<defs>
+<marker id="hA78BFA" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#A78BFA"/></marker><marker id="hEC4899" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#EC4899"/></marker>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#A78BFA" fill-opacity="0.12"/></pattern>
+</defs>
+<rect width="1280" height="872" rx="24" fill="#0B0A12"/>
+<rect width="1280" height="872" rx="24" fill="url(#dots)"/>
+<rect x="656.5" y="232.5" width="559" height="575" rx="20" fill="#100E1A" stroke="#8B5CF666"/>
+<rect x="64.5" y="232.5" width="559" height="575" rx="20" fill="#100E1A" stroke="#EC489966"/>
+<rect x="220" y="388" width="248" height="80" rx="18" fill="none" stroke="#2C2842" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="224.5" y="392.5" width="239" height="71" rx="14" fill="#14121F" stroke="#2C2842"/>
+<rect x="88" y="556" width="144" height="80" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="92.5" y="560.5" width="135" height="71" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="272" y="556" width="144" height="80" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="276.5" y="560.5" width="135" height="71" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="456" y="556" width="144" height="80" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="460.5" y="560.5" width="135" height="71" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="812" y="388" width="248" height="80" rx="18" fill="none" stroke="#2C2842" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="816.5" y="392.5" width="239" height="71" rx="14" fill="#14121F" stroke="#2C2842"/>
+<rect x="680" y="556" width="144" height="80" rx="18" fill="none" stroke="#8B5CF6" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="684.5" y="560.5" width="135" height="71" rx="14" fill="#1C1633" stroke="#8B5CF6" stroke-dasharray="6 6"/>
+<rect x="864" y="556" width="144" height="80" rx="18" fill="none" stroke="#8B5CF6" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="868.5" y="560.5" width="135" height="71" rx="14" fill="#1C1633" stroke="#8B5CF6" stroke-dasharray="6 6"/>
+<rect x="1048" y="556" width="144" height="80" rx="18" fill="none" stroke="#8B5CF6" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="1052.5" y="560.5" width="135" height="71" rx="14" fill="#1C1633" stroke="#8B5CF6" stroke-dasharray="6 6"/>
+<line x1="344" y1="464" x2="344" y2="512" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/>
+<line x1="160" y1="512" x2="528" y2="512" stroke="#EC4899" stroke-width="2" stroke-linecap="round"/>
+<line x1="160" y1="512" x2="160" y2="550" stroke="#EC4899" stroke-width="2" stroke-linecap="round" marker-end="url(#hEC4899)"/>
+<line x1="344" y1="512" x2="344" y2="550" stroke="#EC4899" stroke-width="2" stroke-linecap="round" marker-end="url(#hEC4899)"/>
+<line x1="528" y1="512" x2="528" y2="550" stroke="#EC4899" stroke-width="2" stroke-linecap="round" marker-end="url(#hEC4899)"/>
+<line x1="936" y1="464" x2="936" y2="512" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="752" y1="512" x2="1120" y2="512" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="752" y1="512" x2="752" y2="550" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6" marker-end="url(#hA78BFA)"/>
+<line x1="936" y1="512" x2="936" y2="550" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6" marker-end="url(#hA78BFA)"/>
+<line x1="1120" y1="512" x2="1120" y2="550" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6" marker-end="url(#hA78BFA)"/>
+<text x="64" y="78" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A78BFA" text-anchor="start" letter-spacing="2">02 — ORCHESTRATION</text>
+<text x="64" y="128" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="44" font-weight="600" fill="#F4F2FF" text-anchor="start" letter-spacing="-0.8">One orchestrator, no fixed roles</text>
+<text x="64" y="170" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#A6A1C2" text-anchor="start">Don’t design a cast of agents up front. Let the main session split each task fresh.</text>
+<text x="96" y="278" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#F9A8D4" text-anchor="start" letter-spacing="2">AVOID</text>
+<text x="96" y="316" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#F4F2FF" text-anchor="start">Fixed roles</text>
+<text x="96" y="350" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="start">You design the split in advance</text>
+<text x="344.0" y="424.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#F4F2FF" text-anchor="middle">Orchestrator</text>
+<text x="344.0" y="447.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="middle">main session</text>
+<text x="160.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Research</text>
+<text x="160.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">agent</text>
+<text x="344.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Writer</text>
+<text x="344.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">agent</text>
+<text x="528.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Editor</text>
+<text x="528.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">agent</text>
+<text x="96" y="700" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F9A8D4" text-anchor="start">✕</text>
+<text x="124" y="700" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Same split for every task</text>
+<text x="96" y="734" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F9A8D4" text-anchor="start">✕</text>
+<text x="124" y="734" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Role-play adds vocabulary, not skill</text>
+<text x="96" y="768" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#F9A8D4" text-anchor="start">✕</text>
+<text x="124" y="768" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Redesign when models improve</text>
+<text x="688" y="278" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" fill="#C4B5FD" text-anchor="start" letter-spacing="2">USE</text>
+<text x="688" y="316" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#F4F2FF" text-anchor="start">Dynamic split</text>
+<text x="688" y="350" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="start">The orchestrator decides each time</text>
+<text x="936.0" y="424.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#F4F2FF" text-anchor="middle">Orchestrator</text>
+<text x="936.0" y="447.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="middle">main session</text>
+<text x="752.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#EDE9FE" text-anchor="middle">Sub-task</text>
+<text x="752.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#C4B5FD" text-anchor="middle">temporary</text>
+<text x="936.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#EDE9FE" text-anchor="middle">Sub-task</text>
+<text x="936.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#C4B5FD" text-anchor="middle">temporary</text>
+<text x="1120.0" y="592.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#EDE9FE" text-anchor="middle">Sub-task</text>
+<text x="1120.0" y="615.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#C4B5FD" text-anchor="middle">temporary</text>
+<text x="688" y="700" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#C4B5FD" text-anchor="start">✓</text>
+<text x="716" y="700" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Split fits the task in front of it</text>
+<text x="688" y="734" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#C4B5FD" text-anchor="start">✓</text>
+<text x="716" y="734" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Sessions close when done</text>
+<text x="688" y="768" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#C4B5FD" text-anchor="start">✓</text>
+<text x="716" y="768" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#D9D5EE" text-anchor="start">Nothing to redesign on upgrades</text>
 </svg>

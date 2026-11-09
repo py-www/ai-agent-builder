@@ -1,65 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif">
-  <defs>
-    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
-  <rect width="760" height="560" fill="#FFFFFF"/>
-  <text x="380" y="34" text-anchor="middle" font-size="18" font-weight="600" fill="#2C2C2A">Maker → Attackers → Judge</text>
-
-  <g>
-    <rect x="270" y="56" width="220" height="56" rx="8" fill="#F1EFE8" stroke="#888780"/>
-    <text x="380" y="80" text-anchor="middle" font-size="15" font-weight="600" fill="#2C2C2A">Owner</text>
-    <text x="380" y="99" text-anchor="middle" font-size="12" fill="#5F5E5A">Writes the brief, makes the final call</text>
-  </g>
-  <line x1="380" y1="112" x2="380" y2="146" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-
-  <g>
-    <rect x="40" y="150" width="170" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56"/>
-    <text x="125" y="174" text-anchor="middle" font-size="15" font-weight="600" fill="#085041">Tools</text>
-    <text x="125" y="193" text-anchor="middle" font-size="12" fill="#0F6E56">Browser, connectors, scripts</text>
-  </g>
-  <line x1="210" y1="178" x2="266" y2="178" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-
-  <g>
-    <rect x="270" y="150" width="220" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7"/>
-    <text x="380" y="174" text-anchor="middle" font-size="15" font-weight="600" fill="#3C3489">Maker</text>
-    <text x="380" y="193" text-anchor="middle" font-size="12" fill="#534AB7">Does the work</text>
-  </g>
-
-  <path d="M380 206 L380 232 L190 232 L190 258" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <line x1="380" y1="232" x2="380" y2="258" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <path d="M380 232 L570 232 L570 258" fill="none" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-
-  <g font-size="12">
-    <rect x="105" y="262" width="170" height="56" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="190" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#712B13">Attacker 1</text>
-    <text x="190" y="305" text-anchor="middle" fill="#993C1D">Prove it wrong</text>
-    <rect x="295" y="262" width="170" height="56" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="380" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#712B13">Attacker 2</text>
-    <text x="380" y="305" text-anchor="middle" fill="#993C1D">Prove it wrong</text>
-    <rect x="485" y="262" width="170" height="56" rx="8" fill="#FAECE7" stroke="#993C1D"/>
-    <text x="570" y="286" text-anchor="middle" font-size="15" font-weight="600" fill="#712B13">Attacker 3</text>
-    <text x="570" y="305" text-anchor="middle" fill="#993C1D">Prove it wrong</text>
-  </g>
-
-  <path d="M190 318 L190 342 L380 342" fill="none" stroke="#5F5E5A" stroke-width="1.5"/>
-  <path d="M570 318 L570 342 L380 342" fill="none" stroke="#5F5E5A" stroke-width="1.5"/>
-  <line x1="380" y1="318" x2="380" y2="368" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-
-  <g>
-    <rect x="270" y="372" width="220" height="56" rx="8" fill="#EEEDFE" stroke="#534AB7"/>
-    <text x="380" y="396" text-anchor="middle" font-size="15" font-weight="600" fill="#3C3489">Judge</text>
-    <text x="380" y="415" text-anchor="middle" font-size="12" fill="#534AB7">Keeps only valid criticism</text>
-  </g>
-
-  <path d="M490 400 L710 400 L710 178 L494 178" fill="none" stroke="#534AB7" stroke-width="1.5" stroke-dasharray="6 4" marker-end="url(#a)"/>
-  <text x="600" y="168" text-anchor="middle" font-size="12" fill="#534AB7">Valid feedback only</text>
-
-  <line x1="380" y1="428" x2="380" y2="462" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#a)"/>
-  <g>
-    <rect x="270" y="466" width="220" height="56" rx="8" fill="#F1EFE8" stroke="#888780"/>
-    <text x="380" y="490" text-anchor="middle" font-size="15" font-weight="600" fill="#2C2C2A">Final output</text>
-    <text x="380" y="509" text-anchor="middle" font-size="12" fill="#5F5E5A">Back to the owner</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1168" viewBox="0 0 1280 1168" role="img" aria-labelledby="t d">
+<title id="t">Maker, Attackers, Judge review loop</title><desc id="d">The owner briefs the maker, which uses tools. Three attackers try to prove the output wrong, a judge keeps only valid criticism and sends it back to the maker, then the final output returns to the owner.</desc>
+<defs>
+<marker id="h6E6890" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#6E6890"/></marker><marker id="hA78BFA" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#A78BFA"/></marker>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#A78BFA" fill-opacity="0.12"/></pattern>
+</defs>
+<rect width="1280" height="1168" rx="24" fill="#0B0A12"/>
+<rect width="1280" height="1168" rx="24" fill="url(#dots)"/>
+<rect x="496" y="228" width="288" height="96" rx="18" fill="none" stroke="#2C2842" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="500.5" y="232.5" width="279" height="87" rx="14" fill="#14121F" stroke="#2C2842"/>
+<rect x="116" y="412" width="288" height="96" rx="18" fill="none" stroke="#2C2842" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="120.5" y="416.5" width="279" height="87" rx="14" fill="#14121F" stroke="#2C2842"/>
+<rect x="496" y="412" width="288" height="96" rx="18" fill="none" stroke="#8B5CF6" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="500.5" y="416.5" width="279" height="87" rx="14" fill="#1C1633" stroke="#8B5CF6"/>
+<rect x="146" y="596" width="288" height="96" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="150.5" y="600.5" width="279" height="87" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="496" y="596" width="288" height="96" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="500.5" y="600.5" width="279" height="87" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="846" y="596" width="288" height="96" rx="18" fill="none" stroke="#EC4899" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="850.5" y="600.5" width="279" height="87" rx="14" fill="#241327" stroke="#EC4899"/>
+<rect x="496" y="828" width="288" height="96" rx="18" fill="none" stroke="#8B5CF6" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="500.5" y="832.5" width="279" height="87" rx="14" fill="#1C1633" stroke="#8B5CF6"/>
+<rect x="496" y="1012" width="288" height="96" rx="18" fill="none" stroke="#2C2842" stroke-opacity="0.12" stroke-width="4"/>
+<rect x="500.5" y="1016.5" width="279" height="87" rx="14" fill="#14121F" stroke="#2C2842"/>
+<line x1="640" y1="320" x2="640" y2="406" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="400" y1="460" x2="490" y2="460" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="640" y1="504" x2="640" y2="552" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="552" x2="990" y2="552" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="552" x2="290" y2="590" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="640" y1="552" x2="640" y2="590" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="990" y1="552" x2="990" y2="590" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="290" y1="688" x2="290" y2="760" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="640" y1="688" x2="640" y2="760" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="990" y1="688" x2="990" y2="760" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="290" y1="760" x2="990" y2="760" stroke="#6E6890" stroke-width="2" stroke-linecap="round"/>
+<line x1="640" y1="760" x2="640" y2="822" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="640" y1="920" x2="640" y2="1006" stroke="#6E6890" stroke-width="2" stroke-linecap="round" marker-end="url(#h6E6890)"/>
+<line x1="780" y1="876" x2="1180" y2="876" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="1180" y1="876" x2="1180" y2="460" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6"/>
+<line x1="1180" y1="460" x2="790" y2="460" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 6" marker-end="url(#hA78BFA)"/>
+<text x="64" y="78" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" fill="#A78BFA" text-anchor="start" letter-spacing="2">01 — REVIEW LOOP</text>
+<text x="64" y="128" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="44" font-weight="600" fill="#F4F2FF" text-anchor="start" letter-spacing="-0.8">Maker → Attackers → Judge</text>
+<text x="64" y="170" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="18" font-weight="400" fill="#A6A1C2" text-anchor="start">No session grades its own work. Fresh sessions attack, a judge filters, the maker revises.</text>
+<text x="640.0" y="272.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#F4F2FF" text-anchor="middle">Owner</text>
+<text x="640.0" y="295.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="middle">Writes the brief, decides</text>
+<text x="260.0" y="456.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#F4F2FF" text-anchor="middle">Tools</text>
+<text x="260.0" y="479.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="middle">Browser, connectors, scripts</text>
+<text x="640.0" y="456.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#EDE9FE" text-anchor="middle">Maker</text>
+<text x="640.0" y="479.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#C4B5FD" text-anchor="middle">Does the work</text>
+<text x="290.0" y="640.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Attacker 1</text>
+<text x="290.0" y="663.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">Prove it wrong</text>
+<text x="640.0" y="640.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Attacker 2</text>
+<text x="640.0" y="663.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">Prove it wrong</text>
+<text x="990.0" y="640.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FCE7F3" text-anchor="middle">Attacker 3</text>
+<text x="990.0" y="663.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#F9A8D4" text-anchor="middle">Prove it wrong</text>
+<text x="640.0" y="872.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#EDE9FE" text-anchor="middle">Judge</text>
+<text x="640.0" y="895.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#C4B5FD" text-anchor="middle">Keeps only valid criticism</text>
+<text x="640.0" y="1056.6" font-family="'Space Grotesk', Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#F4F2FF" text-anchor="middle">Final output</text>
+<text x="640.0" y="1079.8" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="400" fill="#A6A1C2" text-anchor="middle">Back to the owner</text>
+<text x="980" y="444" font-family="'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="500" fill="#A78BFA" text-anchor="middle">valid feedback only</text>
+<text x="64" y="1046" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#EDE9FE" text-anchor="start">Stop signal</text>
+<text x="64" y="1070" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#A6A1C2" text-anchor="start">Attackers only find points that are</text>
+<text x="64" y="1092" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#A6A1C2" text-anchor="start">“reasonable but miss the point”.</text>
 </svg>
