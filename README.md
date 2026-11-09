@@ -125,6 +125,30 @@ Add the list to the Agent Brief and to the attacker prompts. Reviews start to so
 2. Ask something like: *"Help me build an agent that prepares my weekly sales report."*
 3. The skill walks you through the brief, the first run and the review loop.
 
+### Install from the terminal (Claude Code)
+
+There is nothing to build or install with a package manager. You only clone the repo and copy the skill folder into your Claude Code skills directory.
+
+**macOS / Linux**
+
+```bash
+git clone https://github.com/py-www/ai-agent-builder.git
+mkdir -p ~/.claude/skills
+cp -r ai-agent-builder/skill/ai-agent-builder ~/.claude/skills/
+```
+
+**Windows (PowerShell)**
+
+```powershell
+git clone https://github.com/py-www/ai-agent-builder.git
+New-Item -ItemType Directory -Force "$HOME\.claude\skills"
+Copy-Item -Recurse ai-agent-builder\skill\ai-agent-builder "$HOME\.claude\skills\"
+```
+
+Restart Claude Code to load the skill. To install it for one project only, copy it into that project's `.claude/skills/` folder instead.
+
+To update later, run `git pull` inside the cloned repo and copy the folder again.
+
 ### Use it by hand
 
 1. Copy [`templates/agent-brief.md`](templates/agent-brief.md) into a new Claude Project's instructions and fill it in.
@@ -138,6 +162,7 @@ Add the list to the Agent Brief and to the attacker prompts. Reviews start to so
 ```
 ai-agent-builder/
 ├── README.md
+├── .gitignore
 ├── skill/
 │   └── ai-agent-builder/
 │       └── SKILL.md          # the method as a Claude skill
